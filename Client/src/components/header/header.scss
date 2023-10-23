@@ -1,0 +1,12 @@
+@import '../variables';
+
+.header{
+    margin-top: 60px;
+    background-color: $background-color ;
+}
+
+.headerTitles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

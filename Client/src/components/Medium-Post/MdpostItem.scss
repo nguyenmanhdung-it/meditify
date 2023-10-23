@@ -1,0 +1,115 @@
+@import "../../components/variables.scss";
+$author: 30px;
+$MdItemCardImg: 140px;
+
+.flex {
+  display: flex;
+}
+.item-flex{
+  display: flex;
+  justify-content: center;
+  box-sizing: inherit;
+  margin: auto;
+  max-width: calc(100% - 40px) ;
+}
+.flex-content {
+  flex: 4;
+  box-sizing: border-box;
+  max-width: calc(100% - 200px);
+  justify-content: center;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+
+
+// .MdItemPost {
+//   max-width: 100vw;
+//   margin-left: 2rem;
+//   margin-top: 30px;
+//   padding-bottom: 30px;
+//   // space between
+//   border-bottom: 1.5px solid #b9b9b9;
+// }
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2rem;
+}
+#Uplike {
+  font-size: 20px;
+  color: rgb(62, 62, 62);
+  cursor: pointer;
+  margin-right: 10px;
+  transform: translateY(-2px);
+}
+#View {
+  color: rgb(62, 62, 62);
+  padding-right: 8px;
+  margin-left: 10px;
+}
+// .margin-left{
+//   margin-left: 0.5rem;
+//   // make font  straight normal
+//   font-weight: normal;
+
+// // }
+
+// .MdItempost {
+//   display: flex;
+//   justify-content: space-between;
+//   max-width: 100vw;
+// }
+.authorName {
+  font-size: 0.8em;
+}
+// .MdItemAuthorImg {
+//   width: $author;
+//   height: $author;
+//   object-fit: cover;
+//   border-radius: 50%;
+//   aspect-ratio: 30 / 30;
+// }
+.MdItemCardImg {
+  width: $MdItemCardImg;
+  height: $MdItemCardImg;
+  object-fit: cover;
+  border-radius: 10%;
+  padding: 10px;
+  aspect-ratio: 1 / 1;
+  margin: 10px;
+}
+.item-title {
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  word-wrap: break-word;
+  white-space: -moz-pre-wrap;
+  white-space: pre-wrap;
+  display: -webkit-box;
+}
+.MdItemdesc {
+  -webkit-line-clamp: 3;
+
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  word-wrap: break-word;      /* IE 5.5-7 */
+  white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
+  white-space: pre-wrap;      /* current browsers */
+  // text-align: justify;
+  display: -webkit-box;
+  max-width: 100vw;
+}
+
+.tags {
+  padding: 7px 15px 7px 15px;
+  margin-right: 15px;
+  border-radius: 18px;
+  background-color: rgb(242, 242, 242);
+}
+.margin10{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+

@@ -1,0 +1,67 @@
+//import var.scss
+@import "../../components/variables.scss";
+
+.home {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  box-sizing: inherit;
+  margin: auto;
+  background-color: $background-color;
+  max-width: 1504px;
+  // max-width: 80%;
+  zoom: 0.8;
+}
+.blank{
+  height: 100px;
+  // color : 
+}
+.HomeBorder {
+  max-width: 900px;
+  min-height: 90vh;
+  flex: 7;
+  border-right: 1px solid #b9b9b9;
+  // padding-right: 50px;
+  margin-top: var(--topbar-height);
+  justify-content: center;
+  transform: translateY(30px);
+}
+.sidebarBorder {
+  max-width: 330px;
+  flex: 2;
+  // border-right: 1px solid #b9b9b9;
+  padding: 10px;
+}
+@media screen and (max-width: 700px) {
+  .HomeBorder {
+    width: 100%;
+    padding-right: 0px;
+    border-right: none;
+    min-height: 120vh;
+  }
+  .sidebarBorder {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
+}
+// @media screen and (max-width: 600px) {
+//   .HomeBorder {
+//     font-size: 0.8rem;
+//     // margin-top: 0px;
+//   }
+//   .footer {
+//     display: none;
+//   }
+//   .tags {
+//     font-size: 0.8rem;
+//   }
+//   #Uplike {
+//     font-size: 0.8rem;
+//   }
+//   .flex-content {
+//     max-width: calc(100% - 120px);
+//     margin: auto;
+//   }
+// }

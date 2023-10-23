@@ -1,0 +1,35 @@
+@import "../../components/variables.scss";
+
+.image-small{
+    //center img
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50%;
+    margin-right: 6px;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    border-radius: 50%;
+    font-weight: 300;
+}
+.small-flex{
+    display: flex;
+    flex-direction: row;
+}
+.author-name-small{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 12px;
+    // thin font
+    font-weight: 300;
+}
+.title-small{
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(41, 41, 41, 1);
+    padding-bottom: 20px;
+}

@@ -1,0 +1,37 @@
+@import "../../components/variables.scss";
+.SideBar {
+  flex: 2;
+  margin-top: calc(var(--topbar-height) + 20px) ;
+  max-width: 394px;
+  margin-left: 25px;
+  background-color: #fff;
+  border-radius: 8px 8px 0 0;
+  background-size: cover;
+  //make it always has space in the left 4px
+  padding-left: 4px;
+  //make it always has space in the right 4px
+}
+.TopHead{
+font-size: 15px;
+margin-bottom: 20px;
+}
+#SidebarTags {
+  padding: 7px 15px 7px 15px;
+  margin: 5px 2px 0 0px ;
+  border-radius: 18px;
+  background-color: rgb(242, 242, 242);
+}
+.SB-Mg{
+  margin: 10px 0px 10px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.border{
+  border-bottom: 1.5px solid #e0e0e0;
+  margin-bottom: 25px;
+  margin-top:5px;
+}
+.DownHead{
+  font-size: 17px;
+  color: var(--blue-bg);
+}

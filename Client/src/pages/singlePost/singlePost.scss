@@ -1,0 +1,138 @@
+//import var.scss
+@import "../../components/variables.scss";
+
+
+.ql-tooltip{
+  // cast shadow 
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+mark{
+  background-color:#d4fce8;
+  color:#757575;
+  display:inline;
+  font-family:sohne;
+  font-size:28px;
+  font-weight:300;
+  letter-spacing:-0.252px;
+  line-height:40px;
+}
+
+// ::-webkit-scrollbar {
+//   color: #000;
+// }
+.ql-tooltip{
+  background-color: #666;
+}
+.single-blog{
+  max-width:700px;
+  margin: 0 auto;
+  
+}
+.Wrap-Post{
+  margin: 0 auto;
+}
+
+.single-post {
+  margin-top: 60px;
+}
+// .single-blog {
+  
+//   margin-left: 10px;
+// }
+.blog-img {
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+}
+.Icon{
+  margin-top: 10px;
+  i::before{
+    cursor: pointer;
+    font-family: 'Font Awesome 5 Free';
+    margin-right: 10px;
+    -webkit-text-stroke: 1px black;
+    color: transparent ;
+    background-color: transparent;
+    font-size: 1.6rem;
+  }
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.single-post-tag {
+  color: rgba(var(--gray-800), 1);
+  outline: none;
+  border: none;
+  // padding: 0.75rem 2rem 0.75rem 1rem;
+}
+
+.single-post-title {
+  // display: block;
+  font-size: 34px;
+  font-family: Montserrat, Raleway, sans-serif;
+  color: rgba(var(--gray-800), 1);
+  line-height: 42px;
+}
+.single-post-des {
+  font-size: 16px;
+  color: rgba(var(--gray-500), 1);
+  font-style: italic;
+}
+.single-post-content {
+  color: rgba(var(--gray-800), 1);
+  font-size: 18px;
+  line-height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  img {
+    max-width: 100%;
+    border-radius: 5%;
+  }
+  p {
+    text-align: justify;
+  }
+}
+
+// .single-post-content::first-letter {
+//   margin-left: 20px;
+//   font-size: 30px;
+//   font-weight: 100;
+// }
+
+.single-post-info {
+  display: flex;
+  //space-between
+  margin: auto;
+
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.single-post-author {
+  color: #666;
+}
+.single-post-date {
+  color: #666;
+}
+
+@media screen and (max-width: 900px) {
+  .Wrap-Post{
+    max-width: 95%;
+    margin-left: 2%;
+  }
+}
+
+
+@media (min-width: 900px) {
+  .single-blog {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .blog-img {
+    width: 100%;
+    height: 30vh;
+  }
+}
